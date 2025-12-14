@@ -699,7 +699,7 @@ class _HashJsonKey:
         return self._key
 
 
-# NOTE not very useful, behaves as _HashJsonKey.
+# NOTE not very useful, behaves as _HashJsonKey, but is not a class.
 def hash_json_key(*args, **kwargs):
     """Function handling of above class, to keep it hidden."""
     return _HashJsonKey(*args, **kwargs)
